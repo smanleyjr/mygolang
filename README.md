@@ -4,6 +4,11 @@
 
 There are a few ways to install GoLang (pick one)
 
+- ***Using Cloud9***
+1. Open a browser
+2. Click on this link to open your Cloud9 Environment
+3. Use the credentials provided 
+
 - ***On Mac***
 
 ```
@@ -22,20 +27,9 @@ brew install go
  2. Go here https://play.golang.org/
 
 
-## How Do I Start Writing Code
+### Let's Write a Simple Program using cloud 9
 
-You need to setup your GOPATH, which is where all of your code will reside
-
-- Mac:
-
-```
-export GOPATH=/Users/mack/go
-
-```
-
-### Let's Write a Simple Program
-
-Open up your favorite editor and create a new file, put the content list below in the file and save it in /Users/mack/go/src/example/main.go
+Click plus to open a new file window, type the content listed below into the file, and save it in ~/environment/golang/src/example/main.go
 
 ```
 package main
@@ -50,7 +44,8 @@ func main() {
 ### Execute Your First Go Program
 
 ```
-cd /Users/mack/go/src/example
+Click plus icon to open a new terminal window, type the following to run your first program.
+cd ~/environment/golang/src/example
 go run main.go
 ```
 
